@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class ConverterMoeda {
 
     public MostraMoeda conversao(String moedaBase) {
-        String apiKey = "e4656d0a92604b8389b8bef1";
+        String apiKey = "Your-Key";
         URI endereco = URI.create("https://v6.exchangerate-api.com/v6/"+ apiKey + "/latest/" + moedaBase);
 
         //HttpClient client = HttpClient.newHttpClient();
